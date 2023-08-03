@@ -1,3 +1,2 @@
 #!/bin/bash
-(printf "%s\n" . .. ; LC_COLLATE=C ls -d .* [A-Za-z0-9]* | LC_COLLATE=C sort) | paste -sd "," - ; echo
-
+ls -wamp
